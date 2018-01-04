@@ -3,9 +3,23 @@ console-emojis
 
 help you write better code and make debugging more fun:
 
-
 ![console emojis](./console.png)
 
+## Install
+
+```bash
+npm install console-emojis
+```
+
+```js
+require('console-emoji')
+```
+
+```js
+import 'console-emoji';
+```
+
+## Examples
 
 ```js
 // Logging to the console
