@@ -1,0 +1,25 @@
+{
+  "name": "console-emojis",
+  "version": "1.0.0",
+  "description": "Custom Console Logging with Emoji.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "console",
+    "console.log",
+    "console-emoji",
+    "console-emojis",
+    "color",
+    "color-log",
+    "emoji",
+    "emojis"
+  ],
+  "author": "Kenny Wang",
+  "repository": {
+    "url": "git@github.com:jaywcjlove/console-emojis.git",
+    "type": "git"
+  },
+  "license": "MIT"
+}
