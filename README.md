@@ -12,11 +12,11 @@ npm install console-emojis
 ```
 
 ```js
-require('console-emoji')
+require('console-emojis')
 ```
 
 ```js
-import 'console-emoji';
+import 'console-emojis';
 ```
 
 ## Examples
