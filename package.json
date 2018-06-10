@@ -1,6 +1,6 @@
 {
   "name": "console-emojis",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom Console Logging with Emoji.",
   "main": "index.js",
   "scripts": {
