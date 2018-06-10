@@ -1,7 +1,7 @@
 console-emojis
 ---
 
-help you write better code and make debugging more fun:
+Emojis enhance just about any user experience. All Emoji come from the [WebpageFX/emoji-cheat-sheet.com](https://github.com/WebpageFX/emoji-cheat-sheet.com) repository. help you write better code and make debugging more fun:
 
 ![console emojis](./console.png)
 
@@ -10,12 +10,11 @@ help you write better code and make debugging more fun:
 ```bash
 npm install console-emojis
 ```
+## Usage
 
 ```js
-require('console-emojis')
-```
-
-```js
+require('console-emojis');
+// es6
 import 'console-emojis';
 ```
 
