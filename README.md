@@ -1,6 +1,12 @@
 console-emojis
 ---
 
+[![](https://img.shields.io/github/issues/jaywcjlove/console-emojis.svg)](https://github.com/jaywcjlove/console-emojis/issues)
+[![](https://img.shields.io/github/forks/jaywcjlove/console-emojis.svg)](https://github.com/jaywcjlove/console-emojis/network)
+[![](https://img.shields.io/github/stars/jaywcjlove/console-emojis.svg)](https://github.com/jaywcjlove/console-emojis/stargazers)
+[![](https://img.shields.io/github/release/jaywcjlove/console-emojis)](https://github.com/jaywcjlove/console-emojis/releases)
+[![](https://img.shields.io/npm/v/console-emojis.svg)](https://www.npmjs.com/package/console-emojis)
+
 Emojis enhance just about any user experience. All Emoji come from the [WebpageFX/emoji-cheat-sheet.com](https://github.com/WebpageFX/emoji-cheat-sheet.com) repository. help you write better code and make debugging more fun:
 
 ![console emojis](./console.png)
