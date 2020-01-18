@@ -1,6 +1,6 @@
 {
   "name": "console-emojis",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom Console Logging with Emoji.",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "color-log",
     "emoji",
     "emojis"
+  ],
+  "files": [
+    "index.js"
   ],
   "author": "Kenny Wang",
   "repository": {
