@@ -1,7 +1,8 @@
 console-emojis
 ===
 
-[![](https://img.shields.io/npm/v/console-emojis.svg)](https://www.npmjs.com/package/console-emojis)
+[![Coverage Status](https://jaywcjlove.github.io/console-emojis/badges.svg)](https://jaywcjlove.github.io/console-emojis/lcov-report/)
+[![npm version](https://img.shields.io/npm/v/console-emojis.svg)](https://www.npmjs.com/package/console-emojis)
 [![](https://img.shields.io/github/issues/jaywcjlove/console-emojis.svg)](https://github.com/jaywcjlove/console-emojis/issues)
 [![](https://img.shields.io/github/forks/jaywcjlove/console-emojis.svg)](https://github.com/jaywcjlove/console-emojis/network)
 [![](https://img.shields.io/github/stars/jaywcjlove/console-emojis.svg)](https://github.com/jaywcjlove/console-emojis/stargazers)
