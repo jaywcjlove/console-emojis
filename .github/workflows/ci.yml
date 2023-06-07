@@ -18,7 +18,7 @@ jobs:
       - run: npm run build
       - run: npm run coverage
 
-      - run: npm install idoc@1.26.4 -g
+      - run: npm install idoc@1.26.5 -g
       - run: idoc -s "Console Emojis {{version}}"
 
       - name: Create Coverage Badges
