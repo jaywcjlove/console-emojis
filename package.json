@@ -2,9 +2,15 @@
   "name": "console-emojis",
   "version": "1.0.4",
   "description": "Custom Console Logging with Emoji.",
-  "main": "index.js",
+  "author": "Kenny Wang",
+  "homepage": "https://jaywcjlove.github.io/console-emojis",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "watch": "tsbb watch",
+    "build": "tsbb build --bail",
+    "test": "tsbb test",
+    "coverage": "tsbb test --coverage --bail",
+    "example": "node example.js"
   },
   "keywords": [
     "console",
@@ -17,12 +23,15 @@
     "emojis"
   ],
   "files": [
-    "index.js"
+    "lib",
+    "src"
   ],
-  "author": "Kenny Wang",
   "repository": {
-    "url": "git@github.com:jaywcjlove/console-emojis.git",
+    "url": "https://github.com/jaywcjlove/console-emojis.git",
     "type": "git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tsbb": "^4.1.5"
+  }
 }

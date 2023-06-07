@@ -1,3 +1,12 @@
+type Name = typeof commands[number]['name'];
+type EmojiName = {
+  [K in Name]: (...args: any[]) => void;
+}
+
+declare global {
+  interface Console extends EmojiName {}
+}
+
 const commands = [
   { emoji: '💯', name: '100' },
   { emoji: '🔢', name: '1234' },
@@ -1431,10 +1440,10 @@ const commands = [
   { emoji: '🇾🇪', name: 'yemen' },
   { emoji: '🇿🇲', name: 'zambia' },
   { emoji: '🇿🇼', name: 'zimbabwe' },
-];
+] as const;
 
 
 {
   // Create custom commands
-  commands.forEach(({ name, emoji }) => console[name] = (...args) => console.log(emoji + ' ' + args.join(', '))); 
+  commands.forEach(({ name, emoji }) => console[name as Name] = (...args: any[]) => console.log(emoji + ' ' + args.join(', '))); 
 }

@@ -1,4 +1,4 @@
-require('../index');
+require('./lib/index');
 
 
 console.cn(" Welcome to China!");
