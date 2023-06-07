@@ -23,8 +23,7 @@
     "emojis"
   ],
   "files": [
-    "lib",
-    "src"
+    "lib"
   ],
   "repository": {
     "url": "https://github.com/jaywcjlove/console-emojis.git",

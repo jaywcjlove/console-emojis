@@ -12,7 +12,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "sourceMap": true
+    "sourceMap": false
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
