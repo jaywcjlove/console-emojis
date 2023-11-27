@@ -1,6 +1,7 @@
 console-emojis
 ===
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
 [![Coverage Status](https://jaywcjlove.github.io/console-emojis/badges.svg)](https://jaywcjlove.github.io/console-emojis/lcov-report/)
 [![npm version](https://img.shields.io/npm/v/console-emojis.svg)](https://www.npmjs.com/package/console-emojis)
 [![](https://img.shields.io/github/issues/jaywcjlove/console-emojis.svg)](https://github.com/jaywcjlove/console-emojis/issues)

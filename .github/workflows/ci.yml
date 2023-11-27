@@ -7,18 +7,21 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           registry-url: 'https://registry.npmjs.org'
 
       - run: npm install
       - run: npm run build
       - run: npm run coverage
 
-      - run: npm install idoc@1.26.5 -g
+      - run: npm install idoc@1.27.2 -g
       - run: idoc -s "Console Emojis {{version}}"
 
       - name: Create Coverage Badges
@@ -81,7 +84,7 @@ jobs:
             ${{ steps.changelog.outputs.changelog }}
 
       - name: 📦 console-emojis publish to NPM
-        run: npm publish --access public
+        run: npm publish --access public --provenance
         continue-on-error: true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
